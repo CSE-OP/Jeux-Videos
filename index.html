@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>CSE Section Jeux Vidéos</title>
+  </head>
+  <body>
+    <header>
+        <div class="banniere-header">
+
+        </div>
+        <nav class="navigation">
+            <ul class="nav-bar">
+                <li class="nav-item">Actualités</li>
+                <li class="nav-item">Catalogue Jeux Vidéos</li>
+                <li class="nav-item">Consoles</li>
+                <li class="nav-item"><a href="./infos.html">Infos Pratiques</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="nouveautes">
+            <h1>NOUVEAUTÉS</h1>
+            <div class="slider-container">
+                <button class="prev">❮</button>
+              
+                <div class="slider"></div>
+              
+                <button class="next">❯</button>
+
+                <div class="dots"></div>
+              </div>
+        </section>
+
+
+
+
+
+        <section class="catalogue-jeux">
+
+          <div class="menu-catalogue">
+            <div class="underline-catalogue">
+              <h2 class="catalogue-title">Catalogue de jeux</h2>
+              <div class="underline"></div>
+            </div>
+
+            <div id="barre-recherche">
+              <input type="text" id="searchInput" placeholder="Rechercher un jeu..." />
+            </div>
+            
+
+            <div class="filters">
+              <div class="filter-group">
+                <button class="filter-toggle">Console ▾</button>
+                <div class="filter-options">
+                  <label>PS5<input type="checkbox" class="filter-console" value="Ps5"></label>
+                  <label>PS4<input type="checkbox" class="filter-console" value="Ps4"></label>
+                  <label>Switch 2<input type="checkbox" class="filter-console" value="Switch2"></label>
+                  <label>Switch<input type="checkbox" class="filter-console" value="Switch"></label>
+                  <label>Xbox<input type="checkbox" class="filter-console" value="Xbox"></label>
+                </div>
+              </div>
+            
+              <div class="filter-group">
+                <button class="filter-toggle">Mode ▾</button>
+                <div class="filter-options">
+                  <label>Solo<input type="checkbox" class="filter-mode" value="Solo"></label>
+                  <label>Multijoueur local<input type="checkbox" class="filter-mode" value="Multijoueur Local"></label>
+                  <label>Multijoueur en ligne<input type="checkbox" class="filter-mode" value="Multijoueur En Ligne"></label>
+                  <label>Coop local<input type="checkbox" class="filter-mode" value="Coop Local"></label>
+                  <label>Coop en ligne<input type="checkbox" class="filter-mode" value="Coop En Ligne"></label>
+                </div>
+              </div>
+            
+              <div class="filter-group">
+                <button class="filter-toggle">Genre ▾</button>
+                <div class="filter-options">
+                  <label>Aventure<input type="checkbox" class="filter-genre" value="Aventure"></label>
+                  <label>Aventure narrative<input type="checkbox" class="filter-genre" value="Aventure Narrative"></label>
+                  <label>Action<input type="checkbox" class="filter-genre" value="Action"></label>
+                  <label>Combat<input type="checkbox" class="filter-genre" value="Combat"></label>
+                  <label>Course<input type="checkbox" class="filter-genre" value="Course"></label>
+                  <label>FPS<input type="checkbox" class="filter-genre" value="Fps"></label>
+                  <label>Hack & Slash<input type="checkbox" class="filter-genre" value="Hack & Slash"></label>
+                  <label>Horreur<input type="checkbox" class="filter-genre" value="Horreur"></label>
+                  <label>Plateforme<input type="checkbox" class="filter-genre" value="Plateforme"></label>
+                  <label>Rogue-like<input type="checkbox" class="filter-genre" value="Rogue-Like"></label>
+                  <label>RPG<input type="checkbox" class="filter-genre" value="Rpg"></label>
+                  <label>Simulation<input type="checkbox" class="filter-genre" value="Simulation"></label>
+                  <label>Sport<input type="checkbox" class="filter-genre" value="Sport"></label>
+                  <label>Stratégie<input type="checkbox" class="filter-genre" value="Stratégie"></label>
+                  <label>Survival<input type="checkbox" class="filter-genre" value="Survival"></label>
+                  <label>TPS<input type="checkbox" class="filter-genre" value="Tps"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            <div id="catalogue" style="display:flex; flex-wrap:wrap;"></div>
+            <div id="pagination" style="text-align:center; margin-top:20px;"></div>
+
+        </section>
+
+
+
+
+
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/catalogue-jeux.js"></script>
+    <script src="./js/jeux.js"></script>
+    <script src="./js/pagination.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/slider-nouveautes.js"></script>
+  </body>
+</html>
