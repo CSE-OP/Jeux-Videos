@@ -1,8 +1,6 @@
 const nouveautes = [
-  { nom: "Call Of Duty - Black Ops 6", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.api.playstation.com/vulcan/ap/rnd/202405/2921/4b45cf4b319a65e05f6e4f87a22c7b91d2e7e8aeb247b61f.png" },
-  { nom: "Call Of Duty : Vanguard", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.api.playstation.com/vulcan/ap/rnd/202208/2402/NfFRLmtdZlgD2zTe0S3oJsll.png" },
-  { nom: "NBA 2K25", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://assets.2k.com/1a6ngf98576c/4J6ICvt6DPi4jnPvmc72MQ/9e64397d3459a717bea30b5e4d7772f2/N25-Announce-Homepage-Module_Two-Retail_Carousel-STD-425x535.jpg" }
-  ];
+  
+];
   
   document.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".slider");
