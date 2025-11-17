@@ -1,7 +1,7 @@
 const container = document.getElementById("catalogue");
 const paginationContainer = document.getElementById("pagination");
 let pageActuelle = 1;
-const cartesParPage = 15; // ajuste ici si tu veux
+const cartesParPage = 21; 
 
 function afficherCartes(listeJeux) {
   container.innerHTML = "";
