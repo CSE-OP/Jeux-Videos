@@ -1,5 +1,11 @@
 const nouveautes = [
-  
+  { nom: "Fc26", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local"], image: "https://image.jeuxvideo.com/medias-sm/175268/1752682779-9893-jaquette-avant.png" },
+  { nom: "Ghost Of Yoteï", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/172724/1727242081-2106-jaquette-avant.jpg" },
+  { nom: "Ninja Gaiden 4", genre: ["Action", "Hack’N Slash"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176103/1761031910-9233-jaquette-avant.jpg" },
+  { nom: "Lost Soul Aside", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175569/1755689915-2970-jaquette-avant.jpg" },
+  { nom: "Call Of Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
+  { nom: "Clair Obscur: Expédition 33", genre: ["Rpg", "Fantastique"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/171803/1718033257-8476-jaquette-avant.jpg" },
+
 ];
   
   document.addEventListener("DOMContentLoaded", () => {
