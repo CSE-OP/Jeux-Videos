@@ -5,8 +5,8 @@ const nouveautes = [
   { nom: "Lost Soul Aside", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175569/1755689915-2970-jaquette-avant.jpg" },
   { nom: "Call Of Duty: Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
   { nom: "Clair Obscur: Expédition 33", genre: ["Rpg", "Fantastique"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/171803/1718033257-8476-jaquette-avant.jpg" },
-  { nom: "Cobra", genre: ["Action"], console: ["Switch"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/images-sm/cp/c/o/cobrcp0f.jpg" },
-
+  { nom: "Cobra The Awakening", genre: ["Action", "Aventure", "Hack’N’Slash"], console: ["Switch"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175277/1752766119-8470-jaquette-avant.png" },
+    
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
