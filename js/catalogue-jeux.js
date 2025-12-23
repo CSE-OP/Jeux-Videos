@@ -404,7 +404,6 @@ const jeux = [
     { nom: "Death Stranding 2", genre: ["Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/170677/1706770154-204-jaquette-avant.jpeg" },
     { nom: "Doom : The Darkages", genre: ["Fps", "Action"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174342/1743423601-684-jaquette-avant.png" },
     { nom: "Elden Ring - Nightreign", genre: ["Action-Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173411/1734106476-3900-jaquette-avant.png" },
-    { nom: "Elden Ring ", genre: ["Action-Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/163301/1633006670-7022-jaquette-avant.jpg" },
     { nom: "Fc 26", genre: ["Sport", "Football"], console: ["Ps5", "Switch 2"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/175268/1752682779-9893-jaquette-avant.png" },
     { nom: "F1 22", genre: ["Sport", "Football"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/165159/1651593166-5861-jaquette-avant.jpg" },
     { nom: "F1 25", genre: ["Sport", "Football"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174309/1743093803-668-jaquette-avant.png" },
