@@ -355,7 +355,6 @@ const jeux = [
     { nom: "Elden Ring", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/163301/1633006670-7022-jaquette-avant.jpg" },
     { nom: "Fc 24", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/168927/1689274370-118-jaquette-avant.jpeg" },
     { nom: "Fc 25", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/172492/1724920373-1097-jaquette-avant.jpg" },
-    { nom: "F1 22", genre: ["Sport", "Course"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/165159/1651593166-5861-jaquette-avant.jpg" },
     { nom: "F1 24", genre: ["Sport", "Course"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/171647/1716470975-4371-jaquette-avant.jpeg" },
     { nom: "Fifa 23", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur"], image: "https://image.jeuxvideo.com/medias-sm/165945/1659449057-7682-jaquette-avant.jpg" },
     { nom: "Final Fantasy Xvi", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/169380/1693804854-6462-jaquette-avant.jpg" },
