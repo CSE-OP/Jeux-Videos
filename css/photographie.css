@@ -1,0 +1,102 @@
+.banner {
+    width: 100%;           /* prend toute la largeur de la page */
+    height: 450px;         /* hauteur de ta bannière, ajuste comme tu veux */
+    overflow: hidden;      /* coupe ce qui dépasse */
+    margin: 50px 0 50px 0;
+  }
+  
+  .banner img {
+    width: 100%;           /* image s’adapte à la largeur */
+    height: 100%;          /* image prend toute la hauteur */
+    object-fit: cover;     /* garde le ratio et remplit la boîte */
+  }
+  
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card h2, .card h4 {
+    margin: 2px 0; /* réduit l’espace vertical */
+    font-weight: normal;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  }
+  
+  .card h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #1f2937;
+  }
+  
+  .card p {
+    margin: 4px 0;
+    font-size: 13px;
+    color: #4b5563;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .tab {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #ddd;
+    background: #f9fafb;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .tab.active {
+    background: #2563eb;
+    color: #fff;
+    border-color: #2563eb;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 999px;
+    margin-right: 6px;
+    margin-top: 6px;
+    font-weight: 600;
+  }
+  
+  .badge.photo {
+    background: #dbeafe;
+    color: #1d4ed8;
+  }
+  
+  .badge.video {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+  
+  .type {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .type.Objectif { color: #059669; }
+  .type.Appareil { color: #7c3aed; }
+  

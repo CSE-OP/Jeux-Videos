@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link href="./css/jplateau.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <title>CSE Section Jeux Plateau</title>
+  </head>
+  <body>
+    <header>
+    
+        <nav class="navigation">
+            <ul class="nav-bar">
+              <li class="nav-item"><a href="./index.html">Jeux Vidéo</a></li>
+              <li class="nav-item"><a href="">Bibliothèque</a></li>
+              <li class="nav-item"><a href="./photographie.html">Photographie</a></li>
+              <li class="nav-item"><a href="./bricolage.html">Bricolage</a></li>
+              <li class="nav-item"><a href="./jplateau.html">Jeux Plateau</a></li>
+            </ul>
+        </nav>
+      
+    </header>
+
+    <main id="main">
+        <section class="nouveautes">
+            <h1>NOUVEAUTÉS</h1>
+            <div class="slider-container">
+                <button class="prev">❮</button>
+              
+                <div class="slider"></div>
+              
+                <button class="next">❯</button>
+
+                <div class="dots"></div>
+              </div>
+        </section>
+
+
+
+
+
+        <section class="catalogue-plateau">
+
+          <div class="menu-catalogue">
+            <div class="underline-catalogue">
+              <h2 class="catalogue-title">Catalogue de jeux plateau</h2>
+              <div class="underline"></div>
+            </div>
+
+            <div id="barre-recherche">
+              <input type="text" id="searchInput" placeholder="Rechercher un jeu..." />
+            </div>
+
+            <div class="filters">
+              
+              <div class="filter-group">
+                <button class="filter-toggle">Joueurs ▾</button>
+                <div class="filter-options" style="right: 130px">
+                  <label>1 joueur<input type="checkbox" class="filter-joueurs" value="1"></label>
+                  <label>2 joueurs<input type="checkbox" class="filter-joueurs" value="2"></label>
+                  <label>3+ joueurs<input type="checkbox" class="filter-joueurs" value="3"></label>
+                </div>
+              </div>
+              
+              
+              <div class="filter-group">
+                <button class="filter-toggle">Age ▾</button>
+                <div class="filter-options" style="right: 50px">
+                  <label>3 +<input type="checkbox" class="filter-age" value="3+"></label>
+                  <label>4 +<input type="checkbox" class="filter-age" value="4+"></label>
+                  <label>5 +<input type="checkbox" class="filter-age" value="5+"></label>
+                  <label>6 +<input type="checkbox" class="filter-age" value="6+"></label>
+                  <label>7 +<input type="checkbox" class="filter-age" value="7+"></label>
+                  <label>8 +<input type="checkbox" class="filter-age" value="8+"></label>
+                  <label>9 +<input type="checkbox" class="filter-age" value="9+"></label>
+                  <label>10 +<input type="checkbox" class="filter-age" value="10+"></label>
+                  <label>12 +<input type="checkbox" class="filter-age" value="12+"></label>
+                  <label>13 +<input type="checkbox" class="filter-age" value="13+"></label>
+                  <label>14 +<input type="checkbox" class="filter-age" value="14+"></label>
+                  <label>16 +<input type="checkbox" class="filter-age" value="16+"></label>
+                </div>
+              </div>
+            
+              <div class="filter-group">
+                <button class="filter-toggle">Coopératif ▾</button>
+                <div class="filter-options" style="left: 140px">
+                  <label>Oui<input type="checkbox" class="filter-coop" value="oui"></label>
+                  <label>Non<input type="checkbox" class="filter-coop" value="non"></label>
+                </div>
+              </div>
+            
+              <div class="filter-group">
+                <button class="filter-toggle">Difficulté ▾</button>
+                <div class="filter-options">
+                  <label>1<input type="checkbox" class="filter-difficulte" value="1"></label>
+                  <label>2<input type="checkbox" class="filter-difficulte" value="2"></label>
+                  <label>3<input type="checkbox" class="filter-difficulte" value="3"></label>
+                  <label>4<input type="checkbox" class="filter-difficulte" value="4"></label>
+                  <label>5<input type="checkbox" class="filter-difficulte" value="5"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            <div id="catalogue" style="display:flex; flex-wrap:wrap;"></div>
+            <div id="pagination" style="text-align:center; margin-top:20px;"></div>
+
+        </section>
+
+
+
+
+
+    </main>
+    <script src="./js/Jeux plateau/catalogue-plateau.js"></script>
+    <script src="./js/Jeux plateau/filter-plateau.js"></script>
+    <script src="./js/Jeux plateau/search-plateau.js"></script>
+    <script src="./js/Jeux plateau/slider-nouveautes-plateau.js"></script>
+  </body>
+</html>
