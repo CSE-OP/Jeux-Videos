@@ -1,3 +1,38 @@
+* {
+  font-family: 'Lora', sans-serif;
+}
+
+.banniere-header {
+    background-image: url('../img/bannière/58676.jpg');
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+}
+
+/****** NAVIGATION ******/
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.nav-bar .nav-item {
+    list-style: none;
+    text-decoration: none;
+    background-color: #FEC944;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+}
+
+.nav-bar .nav-item:hover {
+    background: #BA9F5D;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #2E2E2E;
+}
+
 .banner {
     width: 100%;           /* prend toute la largeur de la page */
     height: 450px;         /* hauteur de ta bannière, ajuste comme tu veux */
