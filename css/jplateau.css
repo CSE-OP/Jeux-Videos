@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lora', sans-serif;
+}
+
 .banniere-header {
     background-image: url('../img/bannière/58676.jpg');
     height: 420px;
