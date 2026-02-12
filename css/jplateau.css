@@ -303,6 +303,10 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+
+.card-header {
+  position: relative;
+}
   
   .card:hover {
     transform: translateY(-5px);
@@ -435,42 +439,39 @@ h1 {
 }
 
 /***** INFOS *****/
+
 .info-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #333;
-    color: #fff;
-    font-weight: bold;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: help;
-  }
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #FEC944;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
 
 .tooltip {
-    position: absolute;
-    top: 36px;
-    right: 8px;
-    max-width: 240px;
-    background: #222;
-    color: #fff;
-    font-size: 0.85rem;
-    padding: 8px 10px;
-    border-radius: 6px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease;
-    z-index: 10;
-    text-transform: none;
-  }
-  
-  /* affichage au survol du i */
-  .info-btn:hover + .tooltip {
-    opacity: 1;
-    visibility: visible;
-  }
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  font-size: 0.8rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.info-btn:hover + .tooltip {
+  opacity: 1;
+}}
