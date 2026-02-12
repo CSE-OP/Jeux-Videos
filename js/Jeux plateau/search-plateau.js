@@ -9,7 +9,6 @@ searchInput.addEventListener("input", (e) => {
   afficherJeuxPage(pageActuelle);
 });
 
-// Dans afficherJeuxPage() ou dans filtrerJeux(), il faut ajouter :
 
 function filtrerJeux() {
   return plateau.filter(jeu => {
@@ -18,7 +17,8 @@ function filtrerJeux() {
     // Vérifie si la recherche texte correspond
     const matchRecherche = rechercheActuelle === "" || nomJeu.includes(rechercheActuelle);
 
-    // Ici tu peux combiner avec tes filtres actuels (age, coop, difficulte)
+
+
     const matchAge = filtresActuels.age.length === 0 || filtresActuels.age.includes(jeu.age[0]);
     const matchCoop = filtresActuels.coop.length === 0 || filtresActuels.coop.includes(jeu.coop[0].toLowerCase());
     const matchDifficulte = filtresActuels.difficulte.length === 0 || filtresActuels.difficulte.includes(jeu.difficulte[0]);
