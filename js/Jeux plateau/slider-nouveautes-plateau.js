@@ -22,16 +22,23 @@ document.addEventListener("DOMContentLoaded", () => {
     const slide = document.createElement("div");
     slide.classList.add("slide");
     slide.innerHTML = `
-      <img src="${jeu.image}" alt="${jeu.nom}">
-      <h3 class="nom">${jeu.nom}</h3>
-      <div class="card-info">
-          <p><strong>Nombre de joueurs :</strong> ${jeu.nbrJoueurs}</p>
-          <p><strong>Age :</strong> ${jeu.age}</p>
-          <p><strong>Durée :</strong> ${jeu.duree}</p>
-          <p><strong>Coop :</strong> ${jeu.coop}</p>
-          <p><strong>Difficulté :</strong> ${jeu.difficulte} / 5</p>
-      </div>
-    `;
+  <div class="card-header">
+      <img src="${jeu.image}" alt="${jeu.nom}" class="image">
+      <span class="info-btn">i</span>
+      <div class="tooltip">${jeu.description[0]}</div>
+  </div>
+
+  <h3 class="nom">${jeu.nom}</h3>
+
+  <div class="card-info">
+      <p>👥 ${jeu.nbrJoueurs}</p>
+      <p>👶 ${jeu.age}</p>
+      <p>⏱️ ${jeu.duree}</p>
+      <p>🤝 ${jeu.coop}</p>
+      <p>🔥 ${jeu.difficulte} / 5</p>
+  </div>
+`;
+
     slider.appendChild(slide);
 
     const dot = document.createElement("div");
