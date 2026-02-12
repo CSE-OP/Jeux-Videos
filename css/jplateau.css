@@ -79,7 +79,6 @@ h1 {
 .slide {
   position: absolute;
   width: 220px;
-  height: 300px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
