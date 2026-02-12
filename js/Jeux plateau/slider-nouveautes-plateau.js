@@ -1,5 +1,10 @@
 const nouveautes = [
-  { nom: "50 Missions", nbrJoueurs: ["1-4"], age: ["8+"], duree: ["20 Min"],  coop: ["Oui"], difficulte: ["1"], description: ["50 Missions À Réaliser Tous Ensemble"], image: "https://cdn1.philibertnet.com/829659-large_default/take-time.jpg" },  
+  { nom: "Take Time", nbrJoueurs: ["2-4"], age: ["10+"], duree: ["< 30 Min"],  coop: ["Oui"], difficulte: ["3"], description: ["Jeu de déduction à communication limitée dans lequel les joueurs collaborent pour résoudre des énigmes d'horloges mystérieuses en plaçant les cartes autour d'un cadran"], image: "https://cdn1.philibertnet.com/829659-large_default/take-time.jpg" },
+  { nom: "Behind - Purple", nbrJoueurs: ["1-10"], age: ["12+"], duree: ["30-60 Min"],  coop: ["Oui"], difficulte: ["3"], description: ["Des tableaux à reconstituer qui font appel à des logiques d'assemblage inédites !"], image: "https://cdn3.philibertnet.com/812148-large_default/behind-purple.jpg" },
+  { nom: "DJ Set", nbrJoueurs: ["3-10"], age: ["10+"], duree: ["< 30 Min"],  coop: ["Oui", "Non"], difficulte: ["2"], description: ["Dans ce quiz unique, oublie le titre et l'artiste: chaque chanson cache un thème à deviner. Plus de 500 musiques réparties en 80 thèmes pour des heures de défis."], image: "https://cdn1.philibertnet.com/791488-large_default/dj-set-quiz-musical.jpg" },
+  { nom: "Cabanga", nbrJoueurs: ["3-6"], age: ["8+"], duree: ["< 30 Min"],  coop: ["Non"], difficulte: ["2"], description: ["C'est un jeu de cartes simple et plein de rebondissements dans lequel les joueurs devront se débarasser de leurs cartes en les plaçant astucieusement."], image: "https://cdn1.philibertnet.com/589839-large_default/cabanga.jpg" },
+  { nom: "Mon Premier Unlock: Histoires De Canard", nbrJoueurs: ["1-4"], age: ["4+"], duree: ["< 30 Min"],  coop: ["Oui"], difficulte: ["1"], description: ["Une adaptation du célèbre jeu d'enquêtes Unlock, pour les tout petits dès 4 ans et sans application !"], image: "https://cdn3.philibertnet.com/775093-large_default/mon-premier-unlock-histoires-de-canard.jpg" },
+  
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
