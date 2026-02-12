@@ -442,8 +442,8 @@ h1 {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: yellow;
-    color: #fff;
+    background: #fff;
+    color: #aaa;
     font-weight: bold;
     font-size: 14px;
     display: flex;
