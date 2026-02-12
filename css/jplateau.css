@@ -443,7 +443,7 @@ h1 {
     height: 22px;
     border-radius: 50%;
     background: #333;
-    color: #fff;
+    color: yellow;
     font-weight: bold;
     font-size: 14px;
     display: flex;
@@ -457,7 +457,7 @@ h1 {
     right: 8px;
     max-width: 240px;
     background: #222;
-    color: yellow;
+    color: #fff;
     font-size: 0.85rem;
     padding: 8px 10px;
     border-radius: 6px;
