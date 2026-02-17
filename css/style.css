@@ -421,3 +421,11 @@ h1 {
 .interlocuteurs {
   margin: 100px 0 100px 150px;
 }
+
+/******* bibli ********/
+.imgbibli {
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
