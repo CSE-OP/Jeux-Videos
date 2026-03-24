@@ -414,6 +414,12 @@ const jeux = [
     { nom: "Tony Hawk'S Pro Skater 3 + 4", genre: ["Sport", "Skateboard"], console: ["Ps5"], mode: ["Solo", "Multijoueur Local"], image: "https://image.jeuxvideo.com/medias-sm/174119/1741192992-758-jaquette-avant.png" },
     { nom: "Call Of Duty: Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
     { nom: "Ninja Gaiden 4", genre: ["Action", "Hack’N Slash"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176103/1761031910-9233-jaquette-avant.jpg" },
+    { nom: "Fc26", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local"], image: "https://image.jeuxvideo.com/medias-sm/175268/1752682779-9893-jaquette-avant.png" },
+    { nom: "Ghost Of Yoteï", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/172724/1727242081-2106-jaquette-avant.jpg" },
+    { nom: "Ninja Gaiden 4", genre: ["Action", "Hack’N Slash"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176103/1761031910-9233-jaquette-avant.jpg" },
+    { nom: "Lost Soul Aside", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175569/1755689915-2970-jaquette-avant.jpg" },
+    { nom: "Call Of Duty: Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
+    { nom: "Clair Obscur: Expédition 33", genre: ["Rpg", "Fantastique"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/171803/1718033257-8476-jaquette-avant.jpg" },
   
     
     // Switch
@@ -512,6 +518,7 @@ const jeux = [
     { nom: "Legendes Pokemon Z-A", genre: ["Rpg", "Aventure"], console: ["Switch", "Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174859/1748593985-1819-jaquette-avant.jpg" },
     { nom: "Super Mario Galaxy 1 & 2", genre: ["Plateforme", "Aventure"], console: ["Switch"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757709679-2142-jaquette-avant.jpg" },
     { nom: "Little Nightmares 3", genre: ["Puzzle", "Aventure", "Horreur", "Plateforme"], console: ["Switch", "Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175793/1757925263-7665-jaquette-avant.jpg" },
+    { nom: "Cobra The Awakening", genre: ["Action", "Aventure", "Hack’N’Slash"], console: ["Switch"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175277/1752766119-8470-jaquette-avant.png" },
     
     
     // Switch 2
