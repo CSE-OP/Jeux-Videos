@@ -1,5 +1,5 @@
 const nouveautes = [
-  { nom: "Monster Hunter Stories 3", genre: ["Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://gamedaim.com/wp-content/uploads/2025/09/Monster-Hunter-Stories-3.webp" },
+  { nom: "Monster Hunter Stories 3", genre: ["Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://www.monsterhunter.com/stories3/assets/images/share_en.png" },
   { nom: "Crimson Dessert", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177376/1773757035-5941-jaquette-avant.jpg" },
   { nom: "Nioh 3", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/175913/1759132155-8435-jaquette-avant.jpg" },
   { nom: "Mario Tennis Fever", genre: ["Sport", "Arcade"], console: ["Switch 2"], mode: ["Solo", "Multijoueur Local", "Multijoueur En Ligne", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757709734-4787-jaquette-avant.jpg" },
