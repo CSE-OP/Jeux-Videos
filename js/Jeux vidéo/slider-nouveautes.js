@@ -1,12 +1,11 @@
 const nouveautes = [
-  { nom: "Fc26", genre: ["Sport"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local"], image: "https://image.jeuxvideo.com/medias-sm/175268/1752682779-9893-jaquette-avant.png" },
-  { nom: "Ghost Of Yoteï", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/172724/1727242081-2106-jaquette-avant.jpg" },
-  { nom: "Ninja Gaiden 4", genre: ["Action", "Hack’N Slash"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176103/1761031910-9233-jaquette-avant.jpg" },
-  { nom: "Lost Soul Aside", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175569/1755689915-2970-jaquette-avant.jpg" },
-  { nom: "Call Of Duty: Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
-  { nom: "Clair Obscur: Expédition 33", genre: ["Rpg", "Fantastique"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/171803/1718033257-8476-jaquette-avant.jpg" },
-  { nom: "Cobra The Awakening", genre: ["Action", "Aventure", "Hack’N’Slash"], console: ["Switch"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175277/1752766119-8470-jaquette-avant.png" },
-    
+  { nom: "Monster Hunter Stories 3", genre: ["Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://gamedaim.com/wp-content/uploads/2025/09/Monster-Hunter-Stories-3.webp" },
+  { nom: "Crimson Dessert", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177376/1773757035-5941-jaquette-avant.jpg" },
+  { nom: "Nioh 3", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/175913/1759132155-8435-jaquette-avant.jpg" },
+  { nom: "Mario Tennis Fever", genre: ["Sport", "Arcade"], console: ["Switch 2"], mode: ["Solo", "Multijoueur Local", "Multijoueur En Ligne", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757709734-4787-jaquette-avant.jpg" },
+  { nom: "Dragonquest Vii Reimagined", genre: ["Rpg", "Tour À Tour"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176277/1762770390-2457-jaquette-avant.jpg" },
+  { nom: "Pokemon - Pokopia", genre: ["Rpg"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757707202-8974-jaquette-avant.jpg" },
+  { nom: "Yakuza 0", genre: ["Action", "Aventure"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174402/1744016178-7550-jaquette-avant.jpg" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
