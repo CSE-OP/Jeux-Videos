@@ -1,11 +1,10 @@
 const nouveautes = [
-  { nom: "Monster Hunter Stories 3", genre: ["Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757713569-857-jaquette-avant.jpg" },
-  { nom: "Crimson Dessert", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177376/1773757035-5941-jaquette-avant.jpg" },
-  { nom: "Nioh 3", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/175913/1759132155-8435-jaquette-avant.jpg" },
-  { nom: "Mario Tennis Fever", genre: ["Sport", "Arcade"], console: ["Switch 2"], mode: ["Solo", "Multijoueur Local", "Multijoueur En Ligne", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757709734-4787-jaquette-avant.jpg" },
-  { nom: "Dragonquest Vii Reimagined", genre: ["Rpg", "Tour À Tour"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176277/1762770390-2457-jaquette-avant.jpg" },
-  { nom: "Pokemon - Pokopia", genre: ["Rpg"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757707202-8974-jaquette-avant.jpg" },
-  { nom: "Yakuza 0", genre: ["Action", "Aventure"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174402/1744016178-7550-jaquette-avant.jpg" },
+{ nom: "Saros", genre: ["Action", "Aventure", "Roguelike"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176590/1765896418-124-jaquette-avant.jpg" },
+{ nom: "007 First Light", genre: ["Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175697/1756970796-7140-jaquette-avant.jpg" },
+{ nom: "Resident Evil Requiem", genre: ["Horreur", "Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757711609-7258-jaquette-avant.jpg" },
+{ nom: "Yoshi And The Magical Book", genre: ["Plateforme", "Aventure"], console: ["Switch 2"], mode: ["Solo", "Multijoueur Local "], image: "https://image.jeuxvideo.com/medias-sm/175771/1757711065-2440-jaquette-avant.jpg" },
+{ nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
+
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
