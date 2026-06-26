@@ -414,7 +414,10 @@ const jeux = [
     { nom: "Tony Hawk'S Pro Skater 3 + 4", genre: ["Sport", "Skateboard"], console: ["Ps5"], mode: ["Solo", "Multijoueur Local"], image: "https://image.jeuxvideo.com/medias-sm/174119/1741192992-758-jaquette-avant.png" },
     { nom: "Call Of Duty: Black Ops 7", genre: ["Action", "Fps"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne", "Multijoueur Local", "Coop Local", "Coop En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654399-2306-jaquette-avant.jpg" },
     { nom: "Ninja Gaiden 4", genre: ["Action", "Hack’N Slash"], console: ["Ps5"], mode: ["Solo", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176103/1761031910-9233-jaquette-avant.jpg" },
-    
+    { nom: "Monster Hunter Stories 3", genre: ["Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757713569-857-jaquette-avant.jpg" },
+    { nom: "Crimson Dessert", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177376/1773757035-5941-jaquette-avant.jpg" },
+    { nom: "Nioh 3", genre: ["Action", "Rpg"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/175913/1759132155-8435-jaquette-avant.jpg" },
+  
   
     
     // Switch
