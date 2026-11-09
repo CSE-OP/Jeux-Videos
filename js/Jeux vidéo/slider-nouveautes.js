@@ -9,7 +9,6 @@ const nouveautes = [
 { nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
 { nom: "Marvel'S Wolverine", genre: ["Action", "Aventure", "Hack'N Slash"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175875/1758750884-1153-jaquette-avant.jpg" },
 { nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
-
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
