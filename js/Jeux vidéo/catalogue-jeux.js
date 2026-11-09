@@ -420,6 +420,11 @@ const jeux = [
     { nom: "Saros", genre: ["Action", "Aventure", "Roguelike"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176590/1765896418-124-jaquette-avant.jpg" },
     { nom: "007 First Light", genre: ["Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175697/1756970796-7140-jaquette-avant.jpg" },
     { nom: "Resident Evil Requiem", genre: ["Horreur", "Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175771/1757711609-7258-jaquette-avant.jpg" },
+    { nom: "Lego Batman : L'Héritage Du Chevalier Noir", genre: ["Action", "Aventure", "Lego"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/177869/1778687585-4763-jaquette-avant.jpg" },
+    { nom: "Marvel'S Spider-Man : Miles Morales", genre: ["Action", "Aventure", "Combat"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/166395/1663949878-4886-jaquette-avant.jpg" },
+    { nom: "Halo : Campaign Evolved", genre: ["Fps", "Action", "Science-Fiction"], console: ["Ps5"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176156/1761559302-6265-jaquette-avant.jpg" },
+    { nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
+    { nom: "Marvel'S Wolverine", genre: ["Action", "Aventure", "Hack'N Slash"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175875/1758750884-1153-jaquette-avant.jpg" },
   
     
     // Switch
@@ -537,5 +542,9 @@ const jeux = [
     { nom: "Yakuza 0", genre: ["Action", "Aventure"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174402/1744016178-7550-jaquette-avant.jpg" },
     { nom: "Yoshi And The Magical Book", genre: ["Plateforme", "Aventure"], console: ["Switch 2"], mode: ["Solo", "Multijoueur Local "], image: "https://image.jeuxvideo.com/medias-sm/175771/1757711065-2440-jaquette-avant.jpg" },
     { nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
+    { nom: "The Legend Of Zelda : Ocarina Of Time", genre: ["Action", "Aventure"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/178102/1781020351-7416-jaquette-avant.png" },
+    { nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
+    { nom: "Splatoon Raiders", genre: ["Tps", "Action", "Aventure"], console: ["Switch 2"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177684/1776844133-882-jaquette-avant.jpg" },
+    { nom: "Orbitals", genre: ["Aventure", "Science-Fiction"], console: ["Switch 2"], mode: ["Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177063/1770630105-231-jaquette-avant.jpg" },
 
 ];
