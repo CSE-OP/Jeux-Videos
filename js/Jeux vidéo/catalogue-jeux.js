@@ -544,6 +544,6 @@ const jeux = [
     { nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
     { nom: "The Legend Of Zelda : Ocarina Of Time", genre: ["Action", "Aventure"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/178102/1781020351-7416-jaquette-avant.png" },
     { nom: "Splatoon Raiders", genre: ["Tps", "Action", "Aventure"], console: ["Switch 2"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177684/1776844133-882-jaquette-avant.jpg" },
-    { nom: "Orbitals", genre: ["Aventure", "Science-Fiction"], console: ["Switch 2"], mode: ["Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177063/1770630105-231-jaquette-avant.jpg" },
+    { nom: "Orbitals", genre: ["Aventure", "Science-Fiction"], console: ["Switch 2"], mode: ["Coop Local", "Coop En Ligne", "Multijoueur Local", "Multijoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177063/1770630105-231-jaquette-avant.jpg" },
 
 ];
