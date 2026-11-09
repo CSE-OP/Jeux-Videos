@@ -5,6 +5,10 @@ const nouveautes = [
 { nom: "Orbitals", genre: ["Aventure", "Science-Fiction"], console: ["Switch 2"], mode: ["Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/177063/1770630105-231-jaquette-avant.jpg" },
 { nom: "Lego Batman : L'Héritage Du Chevalier Noir", genre: ["Action", "Aventure", "Lego"], console: ["Ps5"], mode: ["Solo", "Coop Local"], image: "https://image.jeuxvideo.com/medias-sm/177869/1778687585-4763-jaquette-avant.jpg" },
 { nom: "Marvel'S Spider-Man : Miles Morales", genre: ["Action", "Aventure", "Combat"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/166395/1663949878-4886-jaquette-avant.jpg" },
+{ nom: "Halo : Campaign Evolved", genre: ["Fps", "Action", "Science-Fiction"], console: ["Ps5"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176156/1761559302-6265-jaquette-avant.jpg" },
+{ nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
+{ nom: "Marvel'S Wolverine", genre: ["Action", "Aventure", "Hack'N Slash"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175875/1758750884-1153-jaquette-avant.jpg" },
+{ nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
