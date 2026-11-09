@@ -7,6 +7,10 @@ const nouveautes = [
 { nom: "Halo : Campaign Evolved", genre: ["Fps", "Action", "Science-Fiction"], console: ["Ps5"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176156/1761559302-6265-jaquette-avant.jpg" },
 { nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Ps5", "Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
 { nom: "Marvel'S Wolverine", genre: ["Action", "Aventure", "Hack'N Slash"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175875/1758750884-1153-jaquette-avant.jpg" },
+{ nom: "Call Of Duty : Modern Warfare 4", genre: ["Fps", "Action"], console: ["Ps5"], mode: ["Solo", "Coop En Ligne", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/179128/1791275862-1931-jaquette-avant.jpg" },
+{ nom: "Control : Resonant", genre: ["Action", "Aventure", "Rpg"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176640/1766404791-9372-jaquette-avant.png" },
+{ nom: "Pragmata", genre: ["Action", "Aventure", "Science-Fiction", "Tps"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/176551/1765512568-6281-jaquette-avant.jpg" },
+{ nom: "Resonance : A Plague Tale Legacy", genre: ["Action", "Aventure"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/174965/1749654555-5144-jaquette-avant.jpg" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
