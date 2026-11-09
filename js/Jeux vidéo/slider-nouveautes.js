@@ -8,7 +8,6 @@ const nouveautes = [
 { nom: "Halo : Campaign Evolved", genre: ["Fps", "Action", "Science-Fiction"], console: ["Ps5"], mode: ["Solo", "Coop Local", "Coop En Ligne", "Multijoueur Local", "Mulitjoueur En Ligne"], image: "https://image.jeuxvideo.com/medias-sm/176156/1761559302-6265-jaquette-avant.jpg" },
 { nom: "Onimusha : Way Of The Sword", genre: ["Action", "Aventure", "Hack'N Slash", "Dark Fantasy"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/173618/1736175670-4482-jaquette-avant.png" },
 { nom: "Marvel'S Wolverine", genre: ["Action", "Aventure", "Hack'N Slash"], console: ["Ps5"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/175875/1758750884-1153-jaquette-avant.jpg" },
-{ nom: "Star Fox", genre: ["Action", "Arcade"], console: ["Switch 2"], mode: ["Solo"], image: "https://image.jeuxvideo.com/medias-sm/177815/1778145334-112-jaquette-avant.jpg" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
